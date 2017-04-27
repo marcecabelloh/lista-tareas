@@ -67,12 +67,24 @@ var arreglo = [
 
 function listaTarea(){
 
-	var tareas = document.getElementById("lista");
-	arreglo.forEach(function(elementos){
-		tareas.innerHTML += '<li>' + elementos.title + '</li>';
+	var tareas = document.getElementById("lista"); //llamo al id de mi lista vacía en <ul> dentro del HTML
+	arreglo.forEach(function(elementos){ // arreglo es mi variable donde contengo el arreglo de objetos y le aplico forEach para que itere
+		tareas.innerHTML += '<li>' + elementos.title + '</li>';// mi variable tareas contiene la lista <ul> vacía y quiero que con innerHTML
+																	//imprima  <li> los title presentes en mi arreglo de objetos.
 	})
 }
-listaTarea();
+listaTarea(); //llamando a mi función
+
+function ingresarTarea(){
+	var tareas = document.getElementById("lista"); 
+	var ingresar= document.getElementById("tareaInput").value;
+		tareas.innerHTML += '<li>' + ingresar + '</li>';
+
+}
+
+ingresarTarea();
+
+
 
 
 
