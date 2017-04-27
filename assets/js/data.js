@@ -60,6 +60,3 @@ var arreglo = [
     "completed": true
   },
   
-  function listaTarea(){
-  	
-  }
