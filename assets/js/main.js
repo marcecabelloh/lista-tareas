@@ -1,13 +1,20 @@
 
-  function listaTarea(){
-  	var info = document.getElementById("nuevaInfo");
-  	var titulo = document.getElementsByClassName("title");
-  	
-	arreglo.titulo.innerHTML += input.value +"<br>";
 
-	input.value = "";
-}
+ function listaTarea(){
+ 
+  	var lista = document.getElementById("lista");
+  	var tareaInput = document.getElementById("tareaInput");
+  	var boton= document.getElementById("btn");
 
-listaTarea();
+  	var agregarTarea= function(){}
+  	var comprobarInput= function(){}
+  		
+  		boton.addEventListener("click", agregarTarea);
+  		tareaInput.addEventListener("click", comprobarInput);
+
+	}
+
+
+
 
   
