@@ -4,7 +4,7 @@ proyecto final de sprint: lista de tareas
 
 1. Se deben mostrar las primeras 10 tareas de un arreglo de objetos JSON
 
-2.Estos deben pertenecer a una lista <li>
+2.Estos deben pertenecer a una lista li
 
 3.se debe mostrar un input y un botón añadir tarea
 
